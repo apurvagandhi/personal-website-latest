@@ -1,0 +1,1094 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Techno Core Logic</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/aos.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/icofont.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.documentElement.classList.add("is_dark");
+            }
+            if (localStorage.getItem("theme-color") === "light") {
+            document.documentElement.classList.remove("is_dark");
+            }
+        </script>
+
+    </head>
+
+
+    <body class="body__wrapper">
+        <!-- pre loader area start -->
+        <div id="back__preloader">
+            <div id="back__circle_loader"></div>
+            <div class="back__loader_logo">
+                <img loading="lazy" src="img/R12small.jpg" alt="Preload">
+            </div>
+        </div>
+    </div>
+    <!-- pre loader area end -->
+
+    <!-- Dark/Light area start -->
+    <div class="mode_switcher my_switcher">
+        <button id="light--to-dark-button" class="light align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512">
+            <path
+                d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z"
+                fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="32" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512">
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"
+                  d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94" />
+            <circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-miterlimit="10" stroke-width="32" />
+            </svg>
+
+            <span class="light__mode">Light</span>
+            <span class="dark__mode">Dark</span>
+        </button>
+    </div>
+    <!-- Dark/Light area end -->
+
+    <main class="main_wrapper overflow-hidden">
+
+
+        <!-- topbar__section__stert -->
+        <div class="topbararea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="topbar__left">
+                            <ul>
+                                <li>Call Me: <a href="tel:8080359962">+1 216-571-8068</a></li>
+                                <li>- Email Me: <a href="mailto:sales@technocorelogic.com">gapurva30@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="topbar__right">
+                            <div class="topbar__icon">
+                                <i class="icofont-location-pin"></i>
+                            </div>
+                            <div class="topbar__text">
+                                <p>North Carolina, United States | Surat, Gujarat, India</p>
+                            </div>
+                            <div class="topbar__list">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="icofont-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icofont-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icofont-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icofont-youtube-play"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- topbar__section__end -->
+
+        <!-- headar section start -->
+        <header>
+            <div class="headerarea headerarea__3 header__sticky header__area">
+                <div class="container desktop__menu__wrapper">
+                    <div class="row">
+                        <div class="col-xl-auto col-lg-2 col-md-6">
+                            <div class="headerarea__left">
+                                <div class="headerarea__left__logo">
+
+                                    <a href="index.html"><img loading="lazy" src="img/logo/gandhi_logo.PNG" alt="logo"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-auto col-lg-8 main_menu_wrap">
+                            <div class="headerarea__main__menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="developer.html">About me</a></li>
+                                        <li><a href="partner.html">Education</a></li>
+                                        <li><a class="headerarea__has__dropdown" href="by-products.html">Experience<i class="icofont-rounded-down"></i></a>
+                                            <ul class="headerarea__submenu">
+                                                <li><a href="whatsapp-business-api.html">Software Engineering</a></li>
+                                                <li><a href="sms.html">Notary</a></li>
+                                                <li><a href="call-center-solutions.html">Oil and Gas</a></li>
+                                                <li><a href="voice.html">UPS</a></li>
+                                                <li><a href="voice.html">Teaching</a></li>
+                                                <li><a href="voice.html">Manufacturing</a></li>
+                                                <li><a href="voice.html">Hospitality</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="developer.html">Projects</a></li>
+                                        <li><a href="developer.html">Blogs</a></li>
+                                        <li><a href="developer.html">Traveling</a></li>
+                                        <li><a href="developer.html">Career</a></li>
+                                        <li><a href="developer.html">Contact me</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid mob_menu_wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <div class="mobile-logo">
+                                <a class="logo__dark" href="#"><img loading="lazy" src="img/logo/gandhi_logo.PNG" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="header-right-wrap">
+                                <div class="headerarea__right"></div>
+                                <div class="mobile-off-canvas">
+                                    <a class="mobile-aside-button" href="#"><i class="icofont-navigation-menu"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header section end -->
+
+        <!-- Mobile Menu Start Here -->
+        <div class="mobile-off-canvas-active">
+            <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
+            <div class="header-mobile-aside-wrap">
+                <div class="mobile-menu-wrap headerarea">
+                    <div class="mobile-navigation">
+
+                        <nav>
+                            <ul class="mobile-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="by-products.html">Resume</a>
+                                    <ul class="dropdown">
+                                        <li><a href="whatsapp-business-api.html">WhatsApp Business Api</a></li>
+                                        <li><a href="sms.html">SMS</a></li>
+                                        <li><a href="call-center-solutions.html">Call Center Solutions</a></li>
+                                        <li><a href="voice.html">Voice</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="by-features.html">Software Engineering</a>
+                                    <ul class="dropdown">
+                                        <li><a href="broadcast.html">Broadcast</a></li>
+                                        <li><a href="no-code-chatbot.html">No Code Chatbot</a></li>
+                                        <li><a href="shared-team-agent.html">Shared Team Agent</a></li>
+                                        <li><a href="whatsapp-widget.html">WhatsApp Widget</a></li>
+                                        <li><a href="link-generator.html">Link Generator</a></li>
+                                        <li><a href="qr-code-generator.html">Qr Code Generator</a></li>
+                                        <li><a href="smart-link-manager.html">Smart Link Manager</a></li>
+                                        <li><a href="sub-user-management.html">Sub User Management</a></li>
+                                        <li><a href="smpp.html">SMPP, UI, API</a></li>
+                                        <li><a href="hosted.html">Hosted/on-Premise, Predictive, Progressive Solution</a></li>
+                                        <li><a href="digital-assistant.html">Digital Assistant</a></li>
+                                        <li><a href="missed-call-alerts.html">Missed Call Alerts</a></li>
+                                        <li><a href="obd.html">OBD, ACD, CTI, Digital Monitoring</a></li>
+                                        <li><a href="lms.html">LMS</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="by-industry.html">By Industry</a></li>
+                                <li><a href="by-use-cases.html">By Use Cases</a></li>
+                                <li><a href="partner.html">Partner</a></li>
+                                <li><a href="developer.html">Developer</a></li>
+                                <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="about-us.html">Company</a>
+                                    <ul class="dropdown">
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+                                        <li><a href="career.html">Career</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="blog.html">Resourses</a>
+                                    <ul class="dropdown">
+                                        <li><a href="blog.html"> Blog</a></li>
+                                        <li><a href="case-studies.html">Case Studies</a></li>
+                                        <li><a href="videos.html">Videos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+                <div class="mobile-curr-lang-wrap">
+                    <div class="single-mobile-curr-lang">
+                        <a class="mobile-language-active" href="#">Language <i class="icofont-thin-down"></i></a>
+                        <div class="lang-curr-dropdown lang-dropdown-active">
+                            <ul>
+                                <li><a href="#">English (US)</a></li>
+                                <li><a href="#">English (UK)</a></li>
+                                <li><a href="#">Spanish</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="single-mobile-curr-lang">
+                        <a class="mobile-account-active" href="#">My Account <i class="icofont-thin-down"></i></a>
+                        <div class="lang-curr-dropdown account-dropdown-active">
+                            <ul>
+                                <li class="w-100"><a href="login.html">Login</a></li>
+                                <li class="w-100"><a href="sign-up.html">Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-social-wrap">
+                    <a class="facebook" href="#"><i class="icofont icofont-facebook"></i></a>
+                    <a class="twitter" href="#"><i class="icofont icofont-twitter"></i></a>
+                    <a class="pinterest" href="#"><i class="icofont icofont-pinterest"></i></a>
+                    <a class="instagram" href="#"><i class="icofont icofont-instagram"></i></a>
+                    <a class="google" href="#"><i class="icofont icofont-youtube-play"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu end Here -->
+
+        <!-- theme fixed shadow -->
+        <div>
+            <div class="theme__shadow__circle"></div>
+            <div class="theme__shadow__circle shadow__right"></div>
+        </div>
+        <!-- theme fixed shadow -->
+
+        <!-- herobannerarea__section__start -->
+        <div class="herobannerarea herobannerarea__2 herobannerarea__university">
+
+            <div class="swiper university__slider">
+
+                <div class="herobannerarea__slider__wrap swiper-wrapper">
+
+                    <div class="swiper-slide herobannerarea__single__slider"
+                         style="background: url(img/herobanner/university_1_2.jpg);">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
+                                    <div class="herobannerarea__content__wraper">
+                                        <div class="herobannerarea__title">
+                                            <div class="herobannerarea__small__title">
+                                                <span>Technology Solution</span>
+                                            </div>
+                                            <div
+                                                class="herobannerarea__title__heading__2 herobannerarea__title__heading__3">
+                                                <h2>Grow Your Business with <br>Our Marketing Solutions</h2>
+                                            </div>
+                                        </div>
+                                        <div class="herobannerarea__text herobannerarea__text__2">
+                                            <p>We help our clients to increase their website traffic,<br> rankings and
+                                                visibility in search results. </p>
+                                        </div>
+                                        <div class="hreobannerarea__button__2">
+                                            <a class="default__button" href="#">Try it for Free</a>
+                                            <a class="default__button hreobannerarea__button__3" href="#">Explore
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide herobannerarea__single__slider"
+                         style="background: url(img/herobanner/slider_img2.jpg);">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
+                                    <div class="herobannerarea__content__wraper text-center">
+                                        <div class="herobannerarea__title">
+                                            <div class="herobannerarea__small__title">
+                                                <span>Technology Solution</span>
+                                            </div>
+                                            <div
+                                                class="herobannerarea__title__heading__2 herobannerarea__title__heading__3">
+                                                <h2>Grow Your Business with <br>Our Marketing Solutions</h2>
+                                            </div>
+                                        </div>
+                                        <div class="herobannerarea__text herobannerarea__text__2">
+                                            <p>We help our clients to increase their website traffic,<br> rankings and
+                                                visibility in search results. </p>
+                                        </div>
+                                        <div class="hreobannerarea__button__2">
+                                            <a class="default__button" href="#">Try it for Free</a>
+                                            <a class="default__button hreobannerarea__button__3" href="#">Explore
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide herobannerarea__single__slider"
+                         style="background: url(img/herobanner/slider_img_3.jpg);">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
+                                    <div class="herobannerarea__content__wraper text-center">
+                                        <div class="herobannerarea__title">
+                                            <div class="herobannerarea__small__title">
+                                                <span>Technology Solution</span>
+                                            </div>
+                                            <div
+                                                class="herobannerarea__title__heading__2 herobannerarea__title__heading__3">
+                                                <h2>Grow Your Business with <br>Our Marketing Solutions</h2>
+                                            </div>
+                                        </div>
+                                        <div class="herobannerarea__text herobannerarea__text__2">
+                                            <p>We help our clients to increase their website traffic,<br> rankings and
+                                                visibility in search results. </p>
+                                        </div>
+                                        <div class="hreobannerarea__button__2">
+                                            <a class="default__button" href="#">Try it for Free</a>
+                                            <a class="default__button hreobannerarea__button__3" href="#">Explore
+                                                Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div thumbsSlider="" class="swiper university__slider__thumb">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="img/herobanner/university_1_2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="img/herobanner/slider_img2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="img/herobanner/slider_img_3.jpg" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="slider__controls__wrap slider__controls__pagination slider__controls__arrows">
+                <div class="swiper-button-next arrow-btn"></div>
+                <div class="swiper-button-prev arrow-btn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+        <!-- herobannerarea__section__end-->
+
+        <!-- Home Sec 1 -->
+        <div class="populerarea__2 sp_top_50 sp_bottom_50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 about__wrap__content" data-aos="fade-up">
+                        <div class="service__animate__shape__1">
+                            <img loading="lazy" src="img/service/service__shape__1.png" alt="">
+                        </div>
+                        <div class="populerarea__content__wraper__2">
+                            <div class="section__title ">
+                                <div class="section__title__button">
+                                    <div class="default__small__button">We Do</div>
+                                </div>
+                                <div class="section__title__heading">
+                                    <h2>WHAT WE DO?</h2>
+                                </div>
+                            </div>
+
+                            <div class="populerarea__content__2">
+                                <h4 class="populerarea__para__2">The full service we are offering is specifically
+                                    designed to meet your business needs.</h4>
+                                <p class="populerarea__para__1">Techno Core Logic, the Customer Communications Cloud,
+                                    powers meaningful conversations at scale across messaging, voice, WhatsApp business
+                                    account and call centre dialer solution to help businesses deliver unified,
+                                    personalized experiences that truly revolve around their customers, no matter the
+                                    channels they use — with a single partner.</p>
+                            </div>
+                            <div class="populerarea__button__2">
+                                <a class="default__button" href="#">Explore More
+                                    <i class="icofont-long-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 service__wrap__content">
+                        <div class="service__animate__shape__2">
+                            <img loading="lazy" src="img/service/service__shape__bg__1.png" alt="">
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
+                                <div class="single__service">
+                                    <div class="service__img">
+                                        <img loading="lazy" src="img/icon/seo_icon.png" alt="">
+
+                                    </div>
+                                    <div class="service__content service__content__2">
+                                        <h3><a href="course-details.html">SEO Services</a></h3>
+                                        <p>Construction is a general term the art and science to form </p>
+                                    </div>
+                                    <div class="service__button">
+                                        <a href="#">View Subject
+                                            <i class="icofont-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="service__small__img">
+                                        <svg class="icon__hover__img" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.5961 10.265L19 1.33069L10.0022 3.73285L1 6.1306L7.59393 12.6627L14.1879 19.1992L16.5961 10.265Z"
+                                            stroke="#FFB31F" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="single__service">
+                                    <div class="service__img">
+                                        <img loading="lazy" src="img/icon/web-developer.png" alt="">
+                                    </div>
+                                    <div class="service__content service__content__2">
+                                        <h3><a href="course-details.html">Web Design</a></h3>
+                                        <p>Construction is a general term the art and science to form </p>
+                                    </div>
+                                    <div class="service__button">
+                                        <a href="#">View Subject
+                                            <i class="icofont-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="service__small__img">
+                                        <svg class="icon__hover__img" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.5961 10.265L19 1.33069L10.0022 3.73285L1 6.1306L7.59393 12.6627L14.1879 19.1992L16.5961 10.265Z"
+                                            stroke="#FFB31F" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
+                                <div class="single__service ss_margin">
+                                    <div class="service__img">
+                                        <img loading="lazy" src="img/icon/social_enage.png" alt="">
+
+                                    </div>
+                                    <div class="service__content service__content__2">
+                                        <h3><a href="course-details.html">Social Engagement</a></h3>
+                                        <p>Construction is a general term the art and science to form </p>
+                                    </div>
+                                    <div class="service__button">
+                                        <a href="#">View Subject
+                                            <i class="icofont-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="service__small__img">
+                                        <svg class="icon__hover__img" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.5961 10.265L19 1.33069L10.0022 3.73285L1 6.1306L7.59393 12.6627L14.1879 19.1992L16.5961 10.265Z"
+                                            stroke="#FFB31F" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="single__service">
+                                    <div class="service__img">
+                                        <img loading="lazy" src="img/icon/app-developer.png" alt="">
+
+                                    </div>
+                                    <div class="service__content service__content__2">
+                                        <h3><a href="course-details.html">App Development</a></h3>
+                                        <p>Construction is a general term the art and science to form </p>
+                                    </div>
+                                    <div class="service__button">
+                                        <a href="#">View Subject
+                                            <i class="icofont-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="service__small__img">
+                                        <svg class="icon__hover__img" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.5961 10.265L19 1.33069L10.0022 3.73285L1 6.1306L7.59393 12.6627L14.1879 19.1992L16.5961 10.265Z"
+                                            stroke="#FFB31F" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Sec 1 end-->
+
+        <!-- Home Sec 2 -->
+        <div class="aboutarea__5 sp_bottom_100 sp_top_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6" data-aos="fade-up">
+                        <div class="aboutarea__5__img" data-tilt>
+                            <img loading="lazy" src="img/about/Section_One.png" alt="about">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6" data-aos="fade-up">
+                        <div class="aboutarea__content__wraper__5">
+                            <div class="section__title">
+                                <div class="section__title__button">
+                                    <div class="default__small__button">Why Choose Us?</div>
+                                </div>
+                                <div class="section__title__heading ">
+                                    <h2>So here a few reasons why our valued customers choose us.</h2>
+                                </div>
+                            </div>
+                            <div class="about__text__5">
+                                <p>Meet my startup design agency Shape Rex Currently I am working at CodeNext as Product
+                                    Designer.</p>
+                            </div>
+
+                            <div class="aboutarea__5__small__icon__wraper">
+                                <div class="aboutarea__5__small__icon">
+                                    <img loading="lazy" src="img/about/about_15.png" alt="about">
+
+                                </div>
+                                <div class="aboutarea__small__heading">
+                                    <span>20+ Years Experience In</span> this game, Means Product Designing
+                                </div>
+
+                            </div>
+
+
+
+
+                            <div class="aboutarea__para__5">
+                                <p>I love to work in User Experience & User Interface designing. Because I love to solve
+                                    the design problem and find easy and better solutions to solve it.</p>
+                            </div>
+
+                            <div class="aboutarea__bottom__button__5">
+                                <a class="default__button" href="#"> More About
+                                    <i class="icofont-long-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Sec 2 end -->
+
+        <!-- Home Sec 3 -->
+        <div class="aboutarea__5 sp_bottom_100 sp_top_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 order-xl-2" data-aos="fade-up">
+                        <div class="aboutarea__5__img" data-tilt>
+                            <img loading="lazy" src="img/about/Section_Two.png" alt="about">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 order-xl-1" data-aos="fade-up">
+                        <div class="aboutarea__content__wraper__5 ms-0 me-5">
+                            <div class="section__title">
+                                <div class="section__title__button">
+                                    <div class="default__small__button">Our Solutions</div>
+                                </div>
+                                <div class="section__title__heading ">
+                                    <h2>Just sit & relax while we take care of your business needs.</h2>
+                                </div>
+                            </div>
+                            <div class="about__text__5">
+                                <p>Your success is our top priority. We take the time to understand your unique needs and goals, 
+                                    working closely with you to develop customized solutions that align with your vision and objectives.
+                                    We adhere to rigorous quality standards throughout the development process, ensuring that our solutions are reliable,
+                                     scalable, and built to last. Your satisfaction is guaranteed.</p>
+                            </div>
+
+                            <div class="row mt-5">
+                                <div class="col-md-6 col-sm-6 col-12" data-aos="fade-up">
+                                    <div class="counterarea__text__wraper">
+                                        <div class="counter__img">
+                                            <img loading="lazy" src="img/counter/counter__1.png" alt="counter">
+                                        </div>
+                                        <div class="counter__content__wraper">
+                                            <div class="counter__number">
+                                                <span class="counter">99.7</span>%
+
+                                            </div>
+                                            <p>Customer Satisfaction</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-12" data-aos="fade-up">
+                                    <div class="counterarea__text__wraper">
+                                        <div class="counter__img">
+                                            <img loading="lazy" src="img/counter/counter__2.png" alt="counter">
+                                        </div>
+                                        <div class="counter__content__wraper">
+                                            <div class="counter__number">
+                                                <span class="counter">4</span>x
+
+                                            </div>
+                                            <p>New Visitors</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Sec 3 end -->
+
+        <!-- Home Sec 4 Start -->
+        <div class="early__programs research__programs sp_bottom_100">
+            <div class="container-fluid full__width__padding">
+
+                <div class="row">
+                    <div class="section__title text-center" data-aos="fade-up">
+                        <div class="section__title__button">
+                            <!--<div class="default__small__button">SMS</div>-->
+                        </div>
+                        <div class="section__title__heading heading__underline">
+                            <h2>Achieve High <span>WhatsApp Delivery</span> Rate with</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="single__blog__wraper">
+                            <div class="single__blog__img">
+                                <img loading="lazy" src="img/program/ai_1.jpg" alt="blog">
+                            </div>
+                            <div class="single__blog__content">
+                                <p>Technology</p>
+                                <h4> <a href="#">Fallback Enabled</a></h4>
+                                <p class="desc">We Make sure your SMS is conveyed. If one channel fails, the same
+                                    content gets delivered for sure with another channel (SMS, Voice & Email) chosen by
+                                    you.</p>
+                                <div class="single__blog__bottom__button">
+                                    <a href="#">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="single__blog__wraper">
+                            <div class="single__blog__img">
+                                <img loading="lazy" src="img/program/ai_2.jpg" alt="blog">
+                            </div>
+                            <div class="single__blog__content">
+                                <p>Machine</p>
+                                <h4> <a href="#">AI Based Routing </a></h4>
+                                <p class="desc">AI Based Routing eliminates the queue system and maintains maximum
+                                    delivery in minimal time. Therefore, It helps in achieving a good delivery
+                                    percentage.</p>
+                                <div class="single__blog__bottom__button">
+                                    <a href="#">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="single__blog__wraper">
+                            <div class="single__blog__img">
+                                <img loading="lazy" src="img/program/ai_3.jpg" alt="blog">
+                            </div>
+                            <div class="single__blog__content">
+                                <p>Robot</p>
+                                <h4> <a href="#">Live Monitoring</a></h4>
+                                <p class="desc">Dedicated account to Monitor your API live request whether it is
+                                    successful or failed. Also It helps you find a loophole and the reason for delivery
+                                    failure.</p>
+                                <div class="single__blog__bottom__button">
+                                    <a href="#">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="single__blog__wraper">
+                            <div class="single__blog__img">
+                                <img loading="lazy" src="img/program/ai_4.jpg" alt="blog">
+                            </div>
+                            <div class="single__blog__content">
+                                <p>Automation</p>
+                                <h4> <a href="#">High Volume APIs</a></h4>
+                                <p class="desc">Messaging API is built for high volume with almost no delay response
+                                    time. Scale up your volume anytime without even giving a second thought.</p>
+                                <div class="single__blog__bottom__button">
+                                    <a href="#">Read More </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Home Sec 4 End -->
+
+        <!-- Home Sec 5 start-->
+        <div class="registerarea sp_top_90 sp_bottom_40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="registerarea__wraper">
+                            <div class="section__title registerarea__section__title">
+                                <div class="section__title__button">
+                                    <!--<div class="default__small__button">SMS Management</div>-->
+                                </div>
+                                <div class="section__title__heading heading__underline">
+                                    <h2>Say <span>goodbye </span> to complicated Communications management and hello to
+                                        <span>TCL</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="registerarea__content">
+                                <div class="registerarea__video">
+                                    <div class="registerarea__para">
+                                        <p>With our trusted platform, you can send and receive text messages at scale
+                                            using developer-friendly APIs.</p>
+                                    </div>
+                                    <div class="hreobannerarea__button__2">
+                                        <a class="default__button" href="#">Get Free Demo</a>
+                                        <a class="default__button hreobannerarea__button__3" href="#">Explore 
+                                            Pricing</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="registerarea__form">
+                            <div class="registerarea__form__heading">
+                                <h4>Fill Your Registration</h4>
+                            </div>
+                            <form action="#">
+                                <input class="register__input" type="text" placeholder="Your Name">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <input class="register__input" type="text" placeholder="Email Address">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input class="register__input" type="text" placeholder="Phone">
+                                    </div>
+                                </div>
+                                <input class="register__input" type="text" placeholder="Address">
+                                <textarea class="register__input textarea" name="#" id="#" cols="30"
+                                          rows="10">Comment</textarea>
+                                <div class="registerarea__button">
+                                    <a class="default__button" href="#">Sign Up
+                                        <i class="icofont-long-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="registerarea__img">
+                <img loading="lazy" class="register__1" src="img/register/register__1.png" alt="register">
+                <img loading="lazy" class="register__2" src="img/register/register__2.png" alt="register">
+                <img loading="lazy" class="register__3" src="img/register/register__3.png" alt="register">
+            </div>
+        </div>
+        <!-- Home Sec 5 End-->
+
+        <!-- Home Sec 6 start -->
+        <div class="pricingarea sp_bottom_100 sp_top_90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="section__title__2" data-aos="fade-up">
+                            <div class="section__title__button">
+                                <div class="default__small__button">Clients Testimonial</div>
+                            </div>
+                            <div class="section__title__heading__2 section__title__heading__3 heading__fontsize__2">
+                                <h2>Client Testimonial About Our Lms Agency</h2>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slider__active__3" data-aos="fade-up">
+                            <div class="testimonialarea__paragraph__3 ">
+                                <p class="testimonial__quote"><i class="icofont-quote-left quote__left"></i>The other
+                                    hand we denounce with righteou indg ation and dislike men who are so beguiled and
+                                    demorali ed by the of pleasure of the moment.Dislike men who are so beguiled and
+                                    demoraliz worlds ed by the charms of pleasure of the moment. Lorem ipsum dolor sit
+                                    amet, consec elit.<i class="icofont-quote-right quote__right"></i></p>
+
+                                <div class="testimonialarea__person__3">
+                                    <div class="testimonial__img__3">
+                                        <img loading="lazy" src="img/testimonial/Jktyre.png" alt="">
+                                    </div>
+                                    <div class="testimonial__name">
+                                        <h6><a href="#">Mirnsdo Jons</a></h6>
+                                        <span>Ui/Ux Designer</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="testimonialarea__paragraph__3 ">
+                                <p class="testimonial__quote"><i class="icofont-quote-left quote__left"></i>The other
+                                    hand we denounce with righteou indg ation and dislike men who are so beguiled and
+                                    demorali ed by the of pleasure of the moment.Dislike men who are so beguiled and
+                                    demoraliz worlds ed by the charms of pleasure of the moment. Lorem ipsum dolor sit
+                                    amet, piscing elit.<i class="icofont-quote-right quote__right"></i></p>
+
+                                <div class="testimonialarea__person__3">
+                                    <div class="testimonial__img__3">
+                                        <img loading="lazy" src="img/testimonial/Kothari.png" alt="">
+                                    </div>
+                                    <div class="testimonial__name">
+                                        <h6><a href="#">Mirnsdo Jons</a></h6>
+                                        <span>Ui/Ux Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="testimonialarea__paragraph__3 ">
+                                <p class="testimonial__quote"><i class="icofont-quote-left quote__left"></i>The other
+                                    hand we denounce with righteou indg ation and dislike men who are so beguiled and
+                                    demorali ed by the of pleasure of the moment.Dislike men who are so beguiled and
+                                    demoraliz worlds ed by the charms of pleasure of the moment. Lorem ipsum dolor sit
+                                    amet.<i class="icofont-quote-right quote__right"></i></p>
+
+                                <div class="testimonialarea__person__3">
+                                    <div class="testimonial__img__3">
+                                        <img loading="lazy" src="img/testimonial/saiservice.png" alt="">
+                                    </div>
+                                    <div class="testimonial__name">
+                                        <h6><a href="#">Mirnsdo Jons</a></h6>
+                                        <span>Ui/Ux Designer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" data-aos="fade-up">
+                        <div class="testimonial__group__img" data-tilt>
+                            <img loading="lazy" src="img/testimonial/testi__group__1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Home Sec 6 End -->
+
+        <!-- footer__section__start -->
+        <div class="footerarea footerarea__image" style="background-image:url(img/footer/footer_bg_ai.png)">
+            <div class="container">
+                <div class="footerarea__newsletter__wraper">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                            <div class="footerarea__text">
+                                <h3>Still You Need Our <span>Support</span> ?</h3>
+                                <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                            <div class="footerarea__newsletter">
+                                <div class="footerarea__newsletter__input">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter your email here">
+                                        <div class="footerarea__newsletter__button">
+                                            <button type="submit" class="subscribe__btn">Subscribe Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerarea__wrapper footerarea__wrapper__2">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6" data-aos="fade-up">
+                            <div class="footerarea__inner">
+                                <div class="footerarea__heading">
+                                    <h3>Sitemap</h3>
+                                </div>
+                                <div class="footerarea__list nav-2-col">
+                                    <ul>
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="by-products.html">By Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="by-features.html">By Features</a>
+                                        </li>
+                                        <li>
+                                            <a href="by-industry.html">By Industry</a>
+                                        </li>
+                                        <li>
+                                            <a href="by-use-cases">By Use Cases</a>
+                                        </li>
+										
+                                        <li>
+                                            <a href="partner.html">Partner</a>
+                                        </li>
+                                        <li>
+                                            <a href="developer.html">Developer</a>
+                                        </li>
+                                        <li>
+                                            <a href="about-us.html">Company</a>
+                                        </li>
+                                        <li>
+                                            <a href="resourses.html">Resourses</a>
+                                        </li>
+                                    </ul>
+									
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="footerarea__inner">
+                                <div class="footerarea__heading">
+                                    <h3>Usefull Links</h3>
+                                </div>
+                                <div class="footerarea__list">
+                                    <ul>
+                                        <li>
+                                            <a href="about-us.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="career.html">Career</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact-us.html">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="terms-and-conditions.html">Terms & Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="privacy-policy.html">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                            <div class="footerarea__inner footerarea__about__us">
+                                <div class="footerarea__content">
+                                    <h1>Stay In Touch</h1>
+                                    <p>Techno Core Logic, the Customer Communications Cloud, powers meaningful conversations at scale across messaging, voice, WhatsApp business account.</p>
+                                    <ul class="get-list">
+                                        <li><i class="icofont-location-pin"></i><p>64,Vastushree Complex,Off Hyde Park,Near Gangadham,Bibwewadi,Pune 411037</p></li>
+                                        <li><i class="icofont-location-pin"></i><p>248,Exult Shoppers,Vesu Main Road,Nr. Siddhi Vinayak Temple, Vesu, Surat,395007</p></li>
+										<li><i class="icofont-headphone-alt-2"></i><p><a href="mailto:sales@technocorelogic.com">sales@technocorelogic.com</a></p></li>
+                                        <li><i class="icofont-phone"></i><p><a href="tel:8080359962">+91 80803 59962</a></p></li>
+                                        <li><i class="icofont-phone"></i><p><a href="tel:9011331959">+91 90113 31959</a></p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerarea__copyright__wrapper footerarea__copyright__wrapper__2">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-9">
+						
+                            <div class="footerarea__copyright__content footerarea__copyright__content__2">
+                                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> by Apurva Gandhi. AllRights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="footerarea__icon footerarea__icon__2">
+                                <ul>
+                                    <li><a href="//facebook.com"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="//twitter.com"><i class="icofont-twitter"></i></a></li>
+                                    <li><a href="//vimeo.com"><i class="icofont-vimeo"></i></a></li>
+                                    <li><a href="//linkedin.com"><i class="icofont-linkedin"></i></a></li>
+                                    <li><a href="//skype.com"><i class="icofont-skype"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- footer__section__end -->
+
+    </main>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+                                            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+                                            if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                                    document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
+                                    }
+                                    if (localStorage.getItem("theme-color") === "light") {
+                                    document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
+                                    }
+    </script>
+
+
+</body>
+
+</html>

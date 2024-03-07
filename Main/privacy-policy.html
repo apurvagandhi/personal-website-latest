@@ -1,0 +1,599 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>About | Edurock - Education LMS Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/aos.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/icofont.min.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+            document.documentElement.classList.add("is_dark");
+            }
+            if (localStorage.getItem("theme-color") === "light") {
+            document.documentElement.classList.remove("is_dark");
+            }
+        </script>
+
+    </head>
+
+
+    <body class="body__wrapper">
+        <!-- pre loader area start -->
+        <div id="back__preloader">
+            <div id="back__circle_loader"></div>
+            <div class="back__loader_logo">
+                <img loading="lazy"  src="img/pre.png" alt="Preload">
+            </div>
+        </div>
+        <!-- pre loader area end -->
+
+        <!-- Dark/Light area start -->
+        <div class="mode_switcher my_switcher">
+            <button id="light--to-dark-button" class="light align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon dark__mode" viewBox="0 0 512 512"><path d="M160 136c0-30.62 4.51-61.61 16-88C99.57 81.27 48 159.32 48 248c0 119.29 96.71 216 216 216 88.68 0 166.73-51.57 200-128-26.39 11.49-57.38 16-88 16-119.29 0-216-96.71-216-216z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon light__mode" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M256 48v48M256 416v48M403.08 108.92l-33.94 33.94M142.86 369.14l-33.94 33.94M464 256h-48M96 256H48M403.08 403.08l-33.94-33.94M142.86 142.86l-33.94-33.94"/><circle cx="256" cy="256" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></svg>
+
+                <span class="light__mode">Light</span>
+                <span class="dark__mode">Dark</span>
+            </button>
+        </div>
+        <!-- Dark/Light area end -->
+
+        <main class="main_wrapper overflow-hidden">
+
+            <!-- topbar__section__stert -->
+            <div class="topbararea">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="topbar__left">
+                                <ul>
+                                    <li>Call Us: <a href="tel:8080359962">+91 80803 59962</a>, <a href="tel:9011331959">+91 90113 31959</a></li>
+                                    <li>- Mail Us: <a href="mailto:sales@technocorelogic.com">sales@technocorelogic.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="topbar__right">
+                                <div class="topbar__icon">
+                                    <i class="icofont-location-pin"></i>
+                                </div>
+                                <div class="topbar__text">
+                                    <p>Pune, Maharashtra 411002 India</p>
+                                </div>
+                                <div class="topbar__list">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="icofont-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icofont-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icofont-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="icofont-youtube-play"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- topbar__section__end -->
+
+            <!-- headar section start -->
+            <header>
+                <div class="headerarea headerarea__3 header__sticky header__area">
+                    <div class="container desktop__menu__wrapper">
+                        <div class="row">
+                            <div class="col-xl-auto col-lg-2 col-md-6">
+                                <div class="headerarea__left">
+                                    <div class="headerarea__left__logo">
+
+                                        <a href="index.html"><img loading="lazy" src="img/logo/mlogo.png" alt="logo"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-auto col-lg-8 main_menu_wrap">
+                                <div class="headerarea__main__menu">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a class="headerarea__has__dropdown" href="by-products.html">By Products<i class="icofont-rounded-down"></i></a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="whatsapp-business-api.html">WhatsApp Business Api</a></li>
+                                                    <li><a href="sms.html">SMS</a></li>
+                                                    <li><a href="call-center-solutions.html">Call Center Solutions</a></li>
+                                                    <li><a href="voice.html">Voice</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="headerarea__has__dropdown" href="by-features.html">By Features<i class="icofont-rounded-down"></i></a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="broadcast.html">Broadcast</a></li>
+                                                    <li><a href="no-code-chatbot.html">No Code Chatbot</a></li>
+                                                    <li><a href="shared-team-agent.html">Shared Team Agent</a></li>
+                                                    <li><a href="whatsapp-widget.html">WhatsApp Widget</a></li>
+                                                    <li><a href="link-generator.html">Link Generator</a></li>
+                                                    <li><a href="qr-code-generator.html">Qr Code Generator</a></li>
+                                                    <li><a href="smart-link-manager.html">Smart Link Manager</a></li>
+                                                    <li><a href="sub-user-management.html">Sub User Management</a></li>
+                                                    <li><a href="smpp.html">SMPP, UI, API</a></li>
+                                                    <li><a href="hosted.html">Hosted/on-Premise, Predictive, Progressive Solution</a></li>
+                                                    <li><a href="digital-assistant.html">Digital Assistant</a></li>
+                                                    <li><a href="missed-call-alerts.html">Missed Call Alerts</a></li>
+                                                    <li><a href="obd.html">OBD, ACD, CTI, Digital Monitoring</a></li>
+                                                    <li><a href="lms.html">LMS</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li><a href="by-industry.html">By Industry</a></li>
+                                            <li><a href="by-use-cases.html">By Use Cases</a></li>
+                                            <li><a href="partner.html">Partner</a></li>
+                                            <li><a href="developer.html">Developer</a></li>
+                                            <li><a class="headerarea__has__dropdown" href="about-us.html">Company<i class="icofont-rounded-down"></i></a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                                    <li><a href="career.html">Career</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="headerarea__has__dropdown" href="blog.html">Resourses<i class="icofont-rounded-down"></i></a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="blog.html"> Blog</a></li>
+                                                    <li><a href="case-studies.html">Case Studies</a></li>
+                                                    <li><a href="videos.html">Videos</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-auto col-lg-2 col-md-6">
+                                <div class="headerarea__right">
+                                    <div class="headerarea__button">
+                                        <a href="login.html">Login</a>
+                                        <a href="sign-up.html">Sign Up</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid mob_menu_wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="mobile-logo">
+                                    <a class="logo__dark" href="#"><img loading="lazy" src="img/logo/mlogo.png" alt="logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="header-right-wrap">
+                                    <div class="headerarea__right"></div>
+                                    <div class="mobile-off-canvas">
+                                        <a class="mobile-aside-button" href="#"><i class="icofont-navigation-menu"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header section end -->
+
+            <!-- Mobile Menu Start Here -->
+            <div class="mobile-off-canvas-active">
+                <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
+                <div class="header-mobile-aside-wrap">
+                    <div class="mobile-menu-wrap headerarea">
+                        <div class="mobile-navigation">
+
+                            <nav>
+                                <ul class="mobile-menu">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="by-products.html">By Products</a>
+                                        <ul class="dropdown">
+                                            <li><a href="whatsapp-business-api.html">WhatsApp Business Api</a></li>
+                                            <li><a href="sms.html">SMS</a></li>
+                                            <li><a href="call-center-solutions.html">Call Center Solutions</a></li>
+                                            <li><a href="voice.html">Voice</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="by-features.html">By Features</a>
+                                        <ul class="dropdown">
+                                            <li><a href="broadcast.html">Broadcast</a></li>
+                                            <li><a href="no-code-chatbot.html">No Code Chatbot</a></li>
+                                            <li><a href="shared-team-agent.html">Shared Team Agent</a></li>
+                                            <li><a href="whatsapp-widget.html">WhatsApp Widget</a></li>
+                                            <li><a href="link-generator.html">Link Generator</a></li>
+                                            <li><a href="qr-code-generator.html">Qr Code Generator</a></li>
+                                            <li><a href="smart-link-manager.html">Smart Link Manager</a></li>
+                                            <li><a href="sub-user-management.html">Sub User Management</a></li>
+                                            <li><a href="smpp.html">SMPP, UI, API</a></li>
+                                            <li><a href="hosted.html">Hosted/on-Premise, Predictive, Progressive Solution</a></li>
+                                            <li><a href="digital-assistant.html">Digital Assistant</a></li>
+                                            <li><a href="missed-call-alerts.html">Missed Call Alerts</a></li>
+                                            <li><a href="obd.html">OBD, ACD, CTI, Digital Monitoring</a></li>
+                                            <li><a href="lms.html">LMS</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="by-industry.html">By Industry</a></li>
+                                    <li><a href="by-use-cases.html">By Use Cases</a></li>
+                                    <li><a href="partner.html">Partner</a></li>
+                                    <li><a href="developer.html">Developer</a></li>
+                                    <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="about-us.html">Company</a>
+                                        <ul class="dropdown">
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="contact-us.html">Contact Us</a></li>
+                                            <li><a href="career.html">Career</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children"><a class="headerarea__has__dropdown" href="blog.html">Resourses</a>
+                                        <ul class="dropdown">
+                                            <li><a href="blog.html"> Blog</a></li>
+                                            <li><a href="case-studies.html">Case Studies</a></li>
+                                            <li><a href="videos.html">Videos</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="mobile-curr-lang-wrap">
+                        <div class="single-mobile-curr-lang">
+                            <a class="mobile-language-active" href="#">Language <i class="icofont-thin-down"></i></a>
+                            <div class="lang-curr-dropdown lang-dropdown-active">
+                                <ul>
+                                    <li><a href="#">English (US)</a></li>
+                                    <li><a href="#">English (UK)</a></li>
+                                    <li><a href="#">Spanish</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="single-mobile-curr-lang">
+                            <a class="mobile-account-active" href="#">My Account <i class="icofont-thin-down"></i></a>
+                            <div class="lang-curr-dropdown account-dropdown-active">
+                                <ul>
+                                    <li class="w-100"><a href="login.html">Login</a></li>
+                                    <li class="w-100"><a href="sign-up.html">Sign Up</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-social-wrap">
+                        <a class="facebook" href="#"><i class="icofont icofont-facebook"></i></a>
+                        <a class="twitter" href="#"><i class="icofont icofont-twitter"></i></a>
+                        <a class="pinterest" href="#"><i class="icofont icofont-pinterest"></i></a>
+                        <a class="instagram" href="#"><i class="icofont icofont-instagram"></i></a>
+                        <a class="google" href="#"><i class="icofont icofont-youtube-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end Here -->
+
+            <!-- theme fixed shadow -->
+            <div>
+                <div class="theme__shadow__circle"></div>
+                <div class="theme__shadow__circle shadow__right"></div>
+            </div>
+            <!-- theme fixed shadow -->
+
+
+            <!-- breadcrumbarea__section__start -->
+            <div class="breadcrumbarea bg-img" data-aos="fade-up" style="background-image: url(img/inner-banner-sms.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="breadcrumb__content__wraper">
+                                <div class="breadcrumb__title">
+                                    <h2 class="heading">Privacy Policy</h2>
+                                </div>
+                                <div class="breadcrumb__inner">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li>Privacy Policy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shape__icon__2">
+                    <img loading="lazy"  class=" shape__icon__img shape__icon__img__1" src="img/herobanner/herobanner__1.png" alt="photo">
+                    <img loading="lazy"  class=" shape__icon__img shape__icon__img__2" src="img/herobanner/herobanner__2.png" alt="photo">
+                    <img loading="lazy"  class=" shape__icon__img shape__icon__img__3" src="img/herobanner/herobanner__3.png" alt="photo">
+                    <img loading="lazy"  class=" shape__icon__img shape__icon__img__4" src="img/herobanner/herobanner__5.png" alt="photo">
+                </div>
+
+            </div>
+            <!-- breadcrumbarea__section__end-->
+
+
+            <!-- aboutarea__5__section__start -->
+            <div class="aboutarea__5 sp_bottom_100 sp_top_100">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-12 col-lg-12" data-aos="fade-up">
+                            <div class="aboutarea__content__wraper__5 terms-content ms-0">
+                                <div class="section__title">
+                                    <div class="section__title__heading ">
+                                        <h2>Our Privacy Policy</h2>
+                                    </div>
+                                </div>
+                                <div class="about__text__5">
+                                    <h3>Techno Core Logic</h3>
+                                    <p>Thank you for being a part of The Ultimate Io- a product by Techo Core Logic LLP. Your privacy is important to us.</p>
+                                    <p>Please read the following statement to learn about our information gathering and dissemination practices.</p>
+
+                                    <h4>SCOPE</h4>
+                                    <p>Techo Core Logic LLP (hereinafter referred to as “the Company”, “we”, “our”, “us”) inter alia, offers a suite of messaging software-as-a-service solutions through a single platform to enable its customer to manage communications with their users under the name and style of “The Ultimate Io" - a product by Techo Core Logic LLP” (hereinafter referred to as “Solution”) as a service to its customers, in order to enhance their user support through quicker responses and more efficient internal processes. The Solution is committed to protecting and respecting your privacy. This policy (“Privacy Policy”), together with the terms and conditions, available at [https://www.technocorelogic.com/privacy_policy.php], and all other policies listed as part of the Solution, outlines the privacy practices of the Solution regarding collection, use and safeguard of your information through the Solution and the services offered thereupon. By using, registering or signing up for the Solution, you accept the terms of this Privacy Policy. If you do not accept any of these terms, your usage of the Solution will be restricted. Your clicking of the “ agree” button and submission of personal information or if you are a minor, the submission of your personal information either by your parents (or your legal guardian) or by you with the permission of your parents (or legal guardian) to the Solution will be deemed as your acceptance of this Privacy Policy and agree to be contacted by us to inform you about products and/or services and/or upcoming benefits offered by us or any of our affiliates or any other sub- domains. This Privacy Policy is an electronic record in terms of the Information Technology Act, 2000 (as amended/re-enacted from time to time) (“IT Act”) and rules thereunder, and, amongst others, is published in accordance with the provisions of Rule 3 (1) of the Information Technology (Intermediaries Guidelines) Rules, 2011, which mandates for publishing of rules and regulations, privacy policy and terms of use for access or usage of the Solution. This Privacy Policy is an electronic record, generated by a computer system and does not require any physical or digital signatures</p>
+
+                                    <h4>CHANGES TO THE PRIVACY POLICY</h4>
+                                    <p>We will treat your information in accordance with applicable laws and regulations of India. This Privacy Policy is subject to modification(s) based on business, legal or regulatory requirements and will be updated online from time to time. We will make all efforts to communicate any significant changes to this Privacy Policy to you. You are encouraged to periodically visit this page to review the Privacy Policy and any changes to it. Your continued participation in the Solution after any modification(s) to this Privacy Policy will be deemed as your acceptance to such modification(s).</p>
+
+                                    <h4>PERSONAL INFORMATION WE COLLECT</h4>
+                                    <p>“Personal information” is defined as information that can be used to identify you and may include details such as your name, age, gender, contact information and details, incoming/outgoing messages, business information, products and services you are interested in or require more information about. Insofar as sensitive personal information is concerned, it will carry the meaning as may be defined by applicable laws from time to time.We collect, use and share your personal information in the following manner:</p>
+
+                                    <h4>Collection</h4>
+                                    <p>We may collect your personal information, whenever relevant, to provide you with the services and/or complete any transaction or provide any product you have requested or authorized under the Solution. You also consent to the collection of certain personal information in the course of your applying for the products and/or services with regards to the Solution.</p>
+
+                                    <h4>Usage</h4>
+                                    <p>We seek this personal information either to (a) validate and process your request for the usage of the Solution; or (b) assist the Company and/or any of its affiliates to handle and fulfill your orders and/or transactions, if any, or (c) to communicate details of any allied products and/or services and/or transaction to any third party; or (d) improve the quality of the Solution; or (e) assist you in determining the services/products best suited for your needs; or (f) facilitate our internal business operations, including the fulfilment of any legal and regulatory requirements; or (g) provide you with recommendation about services/products you may be interested in, based on your participation in the Solution; or (h) provide you with marketing communications and advertising that we believe may be of interest of you; or (i) resolve disputes or troubleshooting problems; or (j) detect and protect us against any error, fraud and other criminal activity; or (h) enforce our terms and conditions; or (i) as otherwise described to you at the time of collection.</p>
+
+                                    <h4>Sharing</h4>
+                                    <p>We may disclose your personal information to our affiliates when necessary (a) to provide the services on our behalf or on your behalf in relation to the Solution; or (b) to display advertising and promotional services; or (c) to provide search results and links (including paid listings and links); or (d) to provide efficient customer service. Please note that our entities and affiliates may market to you as a result of such sharing. If you wish to opt-out of any such sharing, do email us on support@technocorelogic.com We may disclose your personal information to any third parties. This disclosure may be required for us to provide you and such third parties to provide services under the Solution or for enhancing your experience, or to comply with our legal obligations. We may also share your personal information with external organizations or individuals if we believe that such access, usage, preservation or disclosure of the personal information is reasonably necessary to:</p>
+                                    <ol>
+                                        <li>(a) meet any applicable law, regulation, legal process or enforceable governmental request;</li>
+                                        <li>(b) detect, prevent or otherwise address fraud, security or technical issues;</li>
+                                        <li>(c) protect against any harm to rights, property or safety of our customers or the public, as required or permitted by applicable laws in India.</li>        
+                                    </ol>
+
+                                    <h4>NON-PERSONAL INFORMATION WE COLLECT</h4>
+                                    <p>Non-personal information is defined as any information that does not personally identify you and may include unique system or hardware identifiers, system or application software, and peripherals. Any non-personal information, when clubbed with personal information shall be treated as personal information. The following is the manner in which we collect, use and share non-personal information.</p>
+
+                                    <h4>Collection</h4>
+                                    <p>You agree that the Solution may collect diagnostic, technical, usage related information, for the usage purposes described below, or communicated to you at the time of collection. This information, once collected, is anonymized in a manner that does not personally identify you.</p>
+
+                                    <h4>Usage</h4>
+                                    <p>The non-personal information is gathered periodically to provide and improve the Solution and services therein, facilitate the provision of software updates, product support and other services to you (if any) and to verify compliance with the terms of this Privacy Policy. As non-personal information does not personally identify you, we may use and disclose non-personal information at our discretion, subject to applicable laws.</p>
+
+                                    <h4>Sharing</h4>
+                                    <p>To enable the Solution partners and Third Party Service Providers to improve their software, hardware and services designed for use with the Solution, we may also provide any such partner or Third Party Service Providers with a subset of diagnostic information that is relevant to such partner’s or Third Party Service Provider’s software, hardware and/or services, as long as the diagnostic information is in a form that does not personally identify you.</p>
+
+                                    <h4>Cloud API</h4>
+                                    <p>WhatsApp Infrastructure means WhatsApp Enterprise Client deployment which helps communication between users and the "The Ultimate Io" platform.</p>
+                                    <p>The Client hereby confirms and agrees that upon sharing the data on the WhatsApp infrastructure, all the data shared by the Client in relation to the WhatsApp messaging will now reside on Cloud API's ("Data Residence"), a Meta Product.</p>
+                                    <p>It is further understood and accepted that any Client data previously routed & stored on WhatsApp infrastructure i.e. for the purpose of messaging/notification on WhatsApp, the WhatsApp infrastructure shall henceforward be migrated to the data centers which are currently located in North America and European Union via Cloud API service by Meta.</p>
+                                    <p>For the purpose of the provision of services under this Agreement, the Client hereby acknowledges that for the WhatsApp infrastructure data localization is not offered by the Company for any such data shared or obtained by the Company in the process of providing the WhatsApp messaging to the Client.</p>
+
+                                    <h4>LOCATION SERVICES</h4>
+                                    <p>The Solution, its licensees and agents, may access, collect and analyse your participation in the Solution and usage of the Solution therein and other information related to your location on a regular basis through Bluetooth and Wi-Fi signals and other technologies and data for the performance of the services provided by the Solution and to help improve the design, functionality, performance, and content of the Solution. In order to collect geo-location information, the location settings must be enabled on your device. Therefore, in some cases, the device may request that you enable the location settings. Except in cases where any specific services requested by you require or involve personal identification, the Solution collects location data anonymously and in a form that does not personally identify you. By using the Solution, you agree and consent to transmission, collection, maintenance, processing and use of your location data and queries to provide and improve such services of the Solution.</p>
+
+                                    <h4>COOKIES</h4>
+                                    <p>We place both permanent and temporary cookies in your device in relation to the Solution. Information collected by cookies and other technologies are treated as non-personal information. However, to the extent that IP addresses or similar identifiers are considered personal information by local law, we treat any information linked to such identifiers as personal information. Similarly, to the extent that non-personal information is combined with personal information, we will treat the combined information as personal information.</p>
+
+                                    <h4>OTHER INFORMATION THE SOLUTION COLLECTS</h4>
+                                    <p>The Solution may also collect other information about you in ways that the Solution describe to you or otherwise with your consent. You can choose not to provide us with certain types of information, but doing so may affect your ability to avail and/or use some services.</p>
+
+                                    <h4>THIRD PARTY SERVICES, THIRD PARTY APPLICATIONS, WEBSITES & SERVICES</h4>
+                                    <p>Third Party Services shall mean the third party services made available by the Company under the Solution including but not limited to WhatsApp business platforms and the term “Third Party Service Provider” shall mean the provider of such Third Party Services. The Solution may include links to other websites/applications or any of its sub domains or website/applications of any Third Party Service Providers or may display advertisements from such Third Party Service Providers and other content that links to Third Party Services. Such Third Party Services are governed by their respective privacy policies, which are out of our control. Once you leave our servers, use of any information you provide is governed by the privacy policy of the operators of the Third Party Services you are visiting and such policies may differ from this Privacy Policy. If you can't find the privacy policy of any of the Third Party Service Providers, you must contact the relevant website /application of such Third Party Service Providers directly for more information. We shall not be responsible for the privacy practices or the content of such Third Party Services. We shall not be liable for the services provided by the Third Party Service Providers, on the Solution. You shall assume all risks arising out of or resulting from any transaction undertaken by you with such Third Party Service Providers on the Solution and you agree and acknowledge that the Company shall not be responsible or liable for any losses arising out of your usage of such Third Party Services. We may use third party advertising companies to serve ads when you visit the Solution. Please note that any Third Party Services you access as a part of the Solution, may also collect, use and share information about you and your usage. We cannot control how these Third Party Service Providers collect, use, share or secure this information. These Third Party Service Providers who collects, processes, shares, uses, retains your personal and/or usage related information or with whom such information is shared pursuant to contractual obligations shall be solely responsible for such usage and liability, if any.</p>
+
+                                    <h4>ACCESS, CORRECTION AND DELETION</h4>
+                                    <p>We strive hard to keep our records updated and accurate with your latest information. You shall be responsible to ensure that the information or data you provide from time to time is and shall be correct, current and updated and you have all the rights, permissions and consents to provide such information or data. You may note that deletion of certain information or withdrawal of consent may lead to cancellation of your access to the Solution or your access to certain features and services of the Solution. Additionally, we may not be able to process your request of correction, updating or deletion, in case the same is not supported by valid documents or data retention is required by the applicable law or law enforcement requests or under any judicial proceedings or it is extremely difficult to implement (such as requests related to backup copies or if a new system is required to process the request or change of technical design) or risks the privacy of other users.</p>
+
+                                    <h4>PROCESSING OF THE INFORMATION</h4>
+                                    <p>We along with our affiliates or Third Party Service Providers with whom we have entered into contractual arrangements may also process any personal and/or usage related information collected from you for legitimate commercial purposes including providing the aforementioned services for the Solution, unless you explicitly opt out. Doing so may affect your ability to avail and/or use the Solution.</p>
+
+                                    <h4>WAIVER OF LIABILITY</h4>
+                                    <p>Notwithstanding anything contrary mentioned in this Privacy Policy, we shall not be liable for any indirect, incidental, consequential, special or exemplary damage(s) arising due to loss of data or use arising out of or in connection with your access or use of or inability to access or use the Solution including but not limited to any sub-domains or any Third Party Services.</p>
+
+                                    <h4>QUERIES AND COMPLAINTS</h4>
+                                    <p>We are committed to protect your personal information collected and processed by us and look forward to your continued support for the same. In case of any feedback or concern regarding protection of your personal information, or any privacy-related feedback or concerns you may contact at <a href="mailto:support@technocorelogic.com">support@technocorelogic.com</a> for any other clarification.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- aboutarea__5__section__end -->
+
+            <!-- footer__section__start -->
+            <div class="footerarea footerarea__image" style="background-image:url(img/footer/footer_bg_ai.png)">
+                <div class="container">
+                    <div class="footerarea__newsletter__wraper">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                                <div class="footerarea__text">
+                                    <h3>Still You Need Our <span>Support</span> ?</h3>
+                                    <p>Don’t wait make a smart & logical quote here. Its pretty easy.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                                <div class="footerarea__newsletter">
+                                    <div class="footerarea__newsletter__input">
+                                        <form action="#">
+                                            <input type="text" placeholder="Enter your email here">
+                                            <div class="footerarea__newsletter__button">
+                                                <button type="submit" class="subscribe__btn">Subscribe Now</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footerarea__wrapper footerarea__wrapper__2">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6" data-aos="fade-up">
+                                <div class="footerarea__inner">
+                                    <div class="footerarea__heading">
+                                        <h3>Sitemap</h3>
+                                    </div>
+                                    <div class="footerarea__list nav-2-col">
+                                        <ul>
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="by-products.html">By Products</a>
+                                            </li>
+                                            <li>
+                                                <a href="by-features.html">By Features</a>
+                                            </li>
+                                            <li>
+                                                <a href="by-industry.html">By Industry</a>
+                                            </li>
+                                            <li>
+                                                <a href="by-use-cases">By Use Cases</a>
+                                            </li>
+                                            <li>
+                                                <a href="partner.html">Partner</a>
+                                            </li>
+                                            <li>
+                                                <a href="developer.html">Developer</a>
+                                            </li>
+                                            <li>
+                                                <a href="about-us.html">Company</a>
+                                            </li>
+                                            <li>
+                                                <a href="resourses.html">Resourses</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12" data-aos="fade-up">
+                                <div class="footerarea__inner">
+                                    <div class="footerarea__heading">
+                                        <h3>Usefull Links</h3>
+                                    </div>
+                                    <div class="footerarea__list">
+                                        <ul>
+                                            <li>
+                                                <a href="about-us.html">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="career.html">Career</a>
+                                            </li>
+                                            <li>
+                                                <a href="contact-us.html">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="terms-and-conditions.html">Terms & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="privacy-policy.html">Privacy Policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+                                <div class="footerarea__inner footerarea__about__us">
+                                    <div class="footerarea__content">
+                                        <h1>Stay In Touch</h1>
+                                        <p>Techno Core Logic, the Customer Communications Cloud, powers meaningful conversations at scale across messaging, voice, WhatsApp business account.</p>
+                                        <ul class="get-list">
+                                            <li><i class="icofont-location-pin"></i><p>64,Ground Floor Vastushree Complex,Off Hyde Park,Near Gangadham,Bibwewadi,Pune 411037</p></li>
+                                            <li><i class="icofont-headphone-alt-2"></i><p><a href="mailto:sales@technocorelogic.com">sales@technocorelogic.com</a></p></li>
+                                            <li><i class="icofont-phone"></i><p><a href="tel:8080359962">+91 80803 59962</a></p></li>
+                                            <li><i class="icofont-phone"></i><p><a href="tel:9011331959">+91 90113 31959</a></p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footerarea__copyright__wrapper footerarea__copyright__wrapper__2">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-9">
+                                <div class="footerarea__copyright__content footerarea__copyright__content__2">
+                                    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> by Techno Core Logic. AllRights Reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="footerarea__icon footerarea__icon__2">
+                                    <ul>
+                                        <li><a href="//facebook.com"><i class="icofont-facebook"></i></a></li>
+                                        <li><a href="//twitter.com"><i class="icofont-twitter"></i></a></li>
+                                        <li><a href="//vimeo.com"><i class="icofont-vimeo"></i></a></li>
+                                        <li><a href="//linkedin.com"><i class="icofont-linkedin"></i></a></li>
+                                        <li><a href="//skype.com"><i class="icofont-skype"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- footer__section__end -->
+
+        </main>
+
+
+
+
+
+        <!-- JS here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+                                            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+                                            if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                                    document.getElementById("light--to-dark-button")?.classList.add("dark--mode");
+                                    }
+                                    if (localStorage.getItem("theme-color") === "light") {
+                                    document.getElementById("light--to-dark-button")?.classList.remove("dark--mode");
+                                    }
+        </script>
+
+
+    </body>
+
+</html>
